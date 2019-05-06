@@ -53,8 +53,10 @@
 }
 
 - (IBAction)getTodayData:(id)sender {
+    [self getDataFromPedometer];
 }
 - (IBAction)getLatest7DaysData:(id)sender {
+    [self getLatestSevenDatesDataFromPedometer];
 }
 
 @end
