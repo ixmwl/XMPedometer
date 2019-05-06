@@ -1,0 +1,16 @@
+PODS:
+  - XMPedometer (0.1.0)
+
+DEPENDENCIES:
+  - XMPedometer (from `../`)
+
+EXTERNAL SOURCES:
+  XMPedometer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XMPedometer: fd52c5fe48978d9e36b32e1fffdf46f8d8b298cc
+
+PODFILE CHECKSUM: db12aa0eb617eee05b7fab49c5f2172fa60c6169
+
+COCOAPODS: 1.6.1

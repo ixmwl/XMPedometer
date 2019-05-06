@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XMPedometer'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of XMPedometer.'
+  s.version          = '1.0.0'
+  s.summary          = '一个基于CMPedometer实现的计步器,可以统计当天或者近7天步数以及里程.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        一个基于CMPedometer实现的计步器,可以统计当天或者近7天步数以及里程.
                        DESC
 
   s.homepage         = 'https://github.com/ixmwl/XMPedometer'
