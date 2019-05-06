@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "XMPedometerManager.h"
 
 FOUNDATION_EXPORT double XMPedometerVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMPedometerVersionString[];

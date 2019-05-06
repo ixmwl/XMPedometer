@@ -1,16 +1,16 @@
 PODS:
-  - XMPedometer (0.1.0)
+  - XMPedometer (1.0.0)
 
 DEPENDENCIES:
-  - XMPedometer (from `../`)
+  - XMPedometer
 
-EXTERNAL SOURCES:
-  XMPedometer:
-    :path: "../"
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - XMPedometer
 
 SPEC CHECKSUMS:
-  XMPedometer: fd52c5fe48978d9e36b32e1fffdf46f8d8b298cc
+  XMPedometer: 3d2296a492e220979a61ce0cba9fcd2a40c13a57
 
-PODFILE CHECKSUM: db12aa0eb617eee05b7fab49c5f2172fa60c6169
+PODFILE CHECKSUM: 77650186927ae53bc72128b7e9b57fa552ce5897
 
 COCOAPODS: 1.6.1

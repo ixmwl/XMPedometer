@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042109B6E069F44B0E7FE49E68709FC0 /* XMPedometerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F19F17DBCDFA36C9AA3E634C23CF457A /* XMPedometerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		06869A3515582394BF15BA3376551CA1 /* Pods-XMPedometer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE0D09C0A5672A3666E375C304AFAC3A /* Pods-XMPedometer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		08D18522A7D8924292141E0153FE68FB /* Pods-XMPedometer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E61EEA697791D51DC0CBF54AB94071CF /* Pods-XMPedometer_Tests-dummy.m */; };
 		2264A7ABDCA0786F743A16C37BAA0436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		255C46722F863FBFD69B2A60B0CAAACE /* XMPedometer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6044D38F3FA5BB9DA0ECF64999F73C3F /* XMPedometer-dummy.m */; };
 		502EA817FA128D3A2C77FFD069A98230 /* Pods-XMPedometer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B2DAC34BE544304BA4A2AF049FCEDEC /* Pods-XMPedometer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CED9D17A358537970E7DE014BE2F088 /* Pods-XMPedometer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F264B695F91CD906B424ABDB4FEA58A /* Pods-XMPedometer_Example-dummy.m */; };
+		6E0E1457A7E9ED4C716C2ACCCC918609 /* XMPedometerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E629A76D8C5A18BFBB03B191EA8486 /* XMPedometerManager.m */; };
+		8A3ED12ADBB4CA93ABB3395A3BE65084 /* XMPedometer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E15839EB8672B5E47EE8FA36FA6ADA7 /* XMPedometer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8B2B901F4DC6CC7AB2FA3F0119954C2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AC688367CFE43EF77CC35A0A721C423E /* XMPedometer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B38A348933F0CECB04EF32CD5F4F0B4 /* XMPedometer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0F18731EB10C042D9FFD280147A89C3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AAAD31EAB65FC4D5B8BEF98066EF774 /* ReplaceMe.m */; };
 		E192F70FCC1D0CF02760E0D814425762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EE5D96601FEB66C3316B212C9622122B /* XMPedometer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE393FA31A73A1623CF2B14528192AE /* XMPedometer-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,35 +39,33 @@
 
 /* Begin PBXFileReference section */
 		16AEF864CEF6E4DCDC4CCDD0C71E3896 /* Pods-XMPedometer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMPedometer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1BE393FA31A73A1623CF2B14528192AE /* XMPedometer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMPedometer-dummy.m"; sourceTree = "<group>"; };
-		1E9544C3E78DD094DB5B33EB97C82BB3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		1F264B695F91CD906B424ABDB4FEA58A /* Pods-XMPedometer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMPedometer_Example-dummy.m"; sourceTree = "<group>"; };
-		254750C8478BB0F17E586ACC796422B9 /* XMPedometer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPedometer-prefix.pch"; sourceTree = "<group>"; };
-		2D453BED6A63A0906D87E899D1CB09EE /* XMPedometer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMPedometer-Info.plist"; sourceTree = "<group>"; };
+		2A49444A2F599333EC4D0848D75994D9 /* XMPedometer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMPedometer.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B38A348933F0CECB04EF32CD5F4F0B4 /* XMPedometer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPedometer-umbrella.h"; sourceTree = "<group>"; };
+		38225B1CBFE7E54345AD129024385180 /* XMPedometer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMPedometer.modulemap; sourceTree = "<group>"; };
 		3E7CA4E73873276063D57EE60B9001F2 /* Pods-XMPedometer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMPedometer_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E15839EB8672B5E47EE8FA36FA6ADA7 /* XMPedometer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPedometer-umbrella.h"; sourceTree = "<group>"; };
 		5B2DAC34BE544304BA4A2AF049FCEDEC /* Pods-XMPedometer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMPedometer_Example-umbrella.h"; sourceTree = "<group>"; };
+		6044D38F3FA5BB9DA0ECF64999F73C3F /* XMPedometer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMPedometer-dummy.m"; sourceTree = "<group>"; };
 		6B8997904D886B447C5A7A9B68E1D08B /* Pods-XMPedometer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPedometer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E0C0355392EF4D0E4A32AE65684492A /* XMPedometer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XMPedometer.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6BE5EDB34660AEDC3941112043645659 /* XMPedometer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMPedometer-Info.plist"; sourceTree = "<group>"; };
 		71C70A79FAC70737100C9B71CC5AA717 /* Pods-XMPedometer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPedometer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		86B1D80232270FC8909F91A9F896200C /* Pods-XMPedometer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMPedometer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8AAAD31EAB65FC4D5B8BEF98066EF774 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMPedometer/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		8B87EE100F346C61B984EBBEBC443BE1 /* Pods-XMPedometer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPedometer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8D7505550A9C2423BC4B362B0A2C5BAC /* Pods-XMPedometer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMPedometer_Tests.modulemap"; sourceTree = "<group>"; };
-		9C9C306C53879CEBE8342F8E4122F1ED /* XMPedometer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMPedometer.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1332655E2D1B6E6E5335C3FF9740B72 /* XMPedometer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMPedometer.modulemap; sourceTree = "<group>"; };
 		B26552B602CC454A27C418B7EE728473 /* Pods-XMPedometer_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPedometer_Example-Info.plist"; sourceTree = "<group>"; };
+		B515DFF8B6909E01A981AB753DEC6B5F /* XMPedometer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMPedometer-prefix.pch"; sourceTree = "<group>"; };
 		BDAE3A993429779158C31ABD8FA77271 /* Pods-XMPedometer_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPedometer_Tests-Info.plist"; sourceTree = "<group>"; };
 		BE58C8AF9B8F5AD4679553FE138C3778 /* Pods-XMPedometer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMPedometer_Example.modulemap"; sourceTree = "<group>"; };
 		CF600BA21264C6D329DF4ECE7F4F2279 /* Pods_XMPedometer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMPedometer_Tests.framework; path = "Pods-XMPedometer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0C4DA3BA82AD41627B0A3DBA4A0464C /* Pods_XMPedometer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMPedometer_Example.framework; path = "Pods-XMPedometer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61EEA697791D51DC0CBF54AB94071CF /* Pods-XMPedometer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMPedometer_Tests-dummy.m"; sourceTree = "<group>"; };
-		E780BAD034514DBB2693E96A26FA2C89 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6E629A76D8C5A18BFBB03B191EA8486 /* XMPedometerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMPedometerManager.m; path = XMPedometer/Classes/XMPedometerManager.m; sourceTree = "<group>"; };
 		EB7D12D0665B5939AEF0CADAC3BA3E52 /* Pods-XMPedometer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPedometer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EE0D09C0A5672A3666E375C304AFAC3A /* Pods-XMPedometer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMPedometer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F0563E239916BD93AE1DF7149FF526F5 /* Pods-XMPedometer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMPedometer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F19F17DBCDFA36C9AA3E634C23CF457A /* XMPedometerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMPedometerManager.h; path = XMPedometer/Classes/XMPedometerManager.h; sourceTree = "<group>"; };
 		FBBD20C5C469E3E2612C38C7A1D73AD5 /* Pods-XMPedometer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMPedometer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF0350E2F60FCE1CF910638E1B271990 /* XMPedometer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMPedometer.framework; path = XMPedometer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,20 +98,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05FE004AFC800CEA00FB3F782FE50893 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B1332655E2D1B6E6E5335C3FF9740B72 /* XMPedometer.modulemap */,
-				9C9C306C53879CEBE8342F8E4122F1ED /* XMPedometer.xcconfig */,
-				1BE393FA31A73A1623CF2B14528192AE /* XMPedometer-dummy.m */,
-				2D453BED6A63A0906D87E899D1CB09EE /* XMPedometer-Info.plist */,
-				254750C8478BB0F17E586ACC796422B9 /* XMPedometer-prefix.pch */,
-				3B38A348933F0CECB04EF32CD5F4F0B4 /* XMPedometer-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XMPedometer";
-			sourceTree = "<group>";
-		};
 		1DE95201BA690A76F7C4260ED8446001 /* Pods-XMPedometer_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -138,16 +123,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		34046EBF8AE77E3388C9984B1BF81E3F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E780BAD034514DBB2693E96A26FA2C89 /* LICENSE */,
-				1E9544C3E78DD094DB5B33EB97C82BB3 /* README.md */,
-				6E0C0355392EF4D0E4A32AE65684492A /* XMPedometer.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		4D672B7B441D02DD6C926939F20A594F /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,12 +133,26 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		66A5A0C40FF82A91B136ED4DF9F9B62C /* Development Pods */ = {
+		5E736CF1CC2DD5162FA582B0208DFEC1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DB597A5A3075C1917B7A6493F923FA95 /* XMPedometer */,
+				38225B1CBFE7E54345AD129024385180 /* XMPedometer.modulemap */,
+				2A49444A2F599333EC4D0848D75994D9 /* XMPedometer.xcconfig */,
+				6044D38F3FA5BB9DA0ECF64999F73C3F /* XMPedometer-dummy.m */,
+				6BE5EDB34660AEDC3941112043645659 /* XMPedometer-Info.plist */,
+				B515DFF8B6909E01A981AB753DEC6B5F /* XMPedometer-prefix.pch */,
+				4E15839EB8672B5E47EE8FA36FA6ADA7 /* XMPedometer-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "../Target Support Files/XMPedometer";
+			sourceTree = "<group>";
+		};
+		B8082A1349EE8495F7363EA891AD97AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E2C94D195B74709285C73D78F1D94 /* XMPedometer */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -195,8 +184,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66A5A0C40FF82A91B136ED4DF9F9B62C /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B8082A1349EE8495F7363EA891AD97AA /* Pods */,
 				4D672B7B441D02DD6C926939F20A594F /* Products */,
 				2999A6F7775A1A1D9BB05263AA9E9C2D /* Targets Support Files */,
 			);
@@ -210,25 +199,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DB597A5A3075C1917B7A6493F923FA95 /* XMPedometer */ = {
+		DE9E2C94D195B74709285C73D78F1D94 /* XMPedometer */ = {
 			isa = PBXGroup;
 			children = (
-				8AAAD31EAB65FC4D5B8BEF98066EF774 /* ReplaceMe.m */,
-				34046EBF8AE77E3388C9984B1BF81E3F /* Pod */,
-				05FE004AFC800CEA00FB3F782FE50893 /* Support Files */,
+				F19F17DBCDFA36C9AA3E634C23CF457A /* XMPedometerManager.h */,
+				E6E629A76D8C5A18BFBB03B191EA8486 /* XMPedometerManager.m */,
+				5E736CF1CC2DD5162FA582B0208DFEC1 /* Support Files */,
 			);
 			name = XMPedometer;
-			path = ../..;
+			path = XMPedometer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		85DF2EBD520B62C19DF54217B8BED398 /* Headers */ = {
+		A4B4F6B528B37237D0DB3F5FA81E8074 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC688367CFE43EF77CC35A0A721C423E /* XMPedometer-umbrella.h in Headers */,
+				8A3ED12ADBB4CA93ABB3395A3BE65084 /* XMPedometer-umbrella.h in Headers */,
+				042109B6E069F44B0E7FE49E68709FC0 /* XMPedometerManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,8 +283,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A4E6507730916813795536888792FFB /* Build configuration list for PBXNativeTarget "XMPedometer" */;
 			buildPhases = (
-				85DF2EBD520B62C19DF54217B8BED398 /* Headers */,
-				FB8B312DD3701A0EC185FD9B6A9A23FF /* Sources */,
+				A4B4F6B528B37237D0DB3F5FA81E8074 /* Headers */,
+				9F523DC86B535231B64F985A4CD645B0 /* Sources */,
 				D64EFFB158F576EB617B053285F938C6 /* Frameworks */,
 				32622C62B71C71F834170F6FEE6DD3FE /* Resources */,
 			);
@@ -368,20 +358,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9F523DC86B535231B64F985A4CD645B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				255C46722F863FBFD69B2A60B0CAAACE /* XMPedometer-dummy.m in Sources */,
+				6E0E1457A7E9ED4C716C2ACCCC918609 /* XMPedometerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A58E8AB934F9A5168492F0F34F0DBC50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				08D18522A7D8924292141E0153FE68FB /* Pods-XMPedometer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB8B312DD3701A0EC185FD9B6A9A23FF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B0F18731EB10C042D9FFD280147A89C3 /* ReplaceMe.m in Sources */,
-				EE5D96601FEB66C3316B212C9622122B /* XMPedometer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -505,7 +495,7 @@
 		};
 		29C2888804FA527372A8E2D3F28CE6C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C9C306C53879CEBE8342F8E4122F1ED /* XMPedometer.xcconfig */;
+			baseConfigurationReference = 2A49444A2F599333EC4D0848D75994D9 /* XMPedometer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -535,7 +525,7 @@
 		};
 		378D9F21059846EA90CC606C9BB61E7D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C9C306C53879CEBE8342F8E4122F1ED /* XMPedometer.xcconfig */;
+			baseConfigurationReference = 2A49444A2F599333EC4D0848D75994D9 /* XMPedometer.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
