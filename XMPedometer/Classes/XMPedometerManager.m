@@ -50,9 +50,14 @@ static XMPedometerManager *instance = nil;
 {
     self = [super init];
     if (self) {
-        if ([CMPedometer isPaceAvailable]) {
-            /// 创建计步器对象
-            self.pedometer = [[CMPedometer alloc] init];
+        if (@available(iOS 8.0, *)) {
+            if ([CMPedometer isStepCountingAvailable]) {
+                /// 创建计步器对象
+                self.pedometer = [[CMPedometer alloc] init];
+            }
+        } else {
+            // Fallback on earlier versions
+            NSLog(@"");
         }
     }
     return self;

@@ -40,16 +40,22 @@ BIM_EXTERN kPedometerIdentier const kPedometerIdentifierDate;
 /**
  从今日零点开始计步, 返回步数和里程
 
- @param handler handler 回调行走步数，行走公里
+ @param handler handler 回调行走步数，行走公里，如果有错误，会回调错误信息, 如果设备不支持计步，会返回错误码-666，否则error为nil 数据回调在子线程
  */
 - (void)xm_startPedometerUpdatesFromTodayWithHandler:(void(^)(NSNumber *numberOfSteps, NSNumber *distance, NSError *error))handler;
 
+
+/*!
+ * 从某一时间开始计步, 返回步数和里程
+ * @param fromDate 计步开始时间
+ * @param handler 回调行走步数，行走公里，如果有错误，会回调错误信息，如果设备不支持计步，会返回错误码-666，否则error为nil 数据回调在子线程
+ */
 
 /**
  从某一时间开始计步, 返回步数和里程
 
  @param fromDate 计步开始时间
- @param handler 回调行走步数，行走公里
+ @param handler 回调行走步数，行走公里，如果有错误，会回调错误信息，如果设备不支持计步，会返回错误码-666，否则error为nil 数据回调在子线程
  */
 - (void)xm_startPedometerUpdatesFromDate:(NSDate *)fromDate
                              withHandler:(void (^)(NSNumber *numberOfSteps, NSNumber *distance, NSError *error))handler;
@@ -60,7 +66,7 @@ BIM_EXTERN kPedometerIdentier const kPedometerIdentifierDate;
 /**
  查询前七天数据
 
- @param handler 回调前七天数据数组，数组中的元素为字典，包含距离今天的时间下标，行走步数，行走公里
+ @param handler 回调前七天数据数组，数组中的元素为字典，包含距离今天的时间下标，行走步数，行走公里，如果有错误，会回调错误信息，如果设备不支持计步，会返回错误码-666，否则error为nil 数据回调在子线程
  */
 - (void)xm_queryPedometerDataForTheLatestSevenDaysWithHandler:(void(^)(NSArray<NSDictionary *> * infoArr, NSError *error))handler;
 
@@ -68,7 +74,7 @@ BIM_EXTERN kPedometerIdentier const kPedometerIdentifierDate;
  查询前几天数据
 
  @param index 注意: index > 7后数据数据数据不准确，规定只能查询七天内的数据
- @param handler 回调前几天数据数组，数组中的元素为字典，包含距离今天的时间下标，行走步数，行走公里
+ @param handler 回调前几天数据数组，数组中的元素为字典，包含距离今天的时间下标，行走步数，行走公里，如果有错误，会回调错误信息，如果设备不支持计步，会返回错误码-666，否则error为nil 数据回调在子线程
  */
 - (void)xm_queryPedometerDataBeforeTodayWithIndex:(NSInteger)index
                                       withHandler:(void (^)(NSArray<NSDictionary *> *infoArr, NSError *error))handler;
